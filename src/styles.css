@@ -1,0 +1,167 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.controls,
+.right-pane {
+    margin-bottom: 20px;
+}
+
+.draggable-item {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    cursor: grab;
+}
+
+.dropzone {
+    border: 2px dashed #aaa;
+    padding: 20px;
+    min-height: 200px;
+}
+
+.layout-item {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+
+.save-load-buttons,
+.publish-btn {
+    margin-top: 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+    /* Allows horizontal scrolling */
+}
+
+.editable-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.editable-table th,
+.editable-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.editable-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.editable-table input[type="text"] {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.editable-table input[type="text"]:focus {
+    outline: none;
+    border-bottom: 1px solid #007bff;
+    /* Blue underline for focus */
+}
+
+/*  */
+
+.layout-name-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.editable-label,
+.editable-label-input,
+.editable-input,
+.editable-checkbox,
+.editable-button {
+    margin-bottom: 16px;
+}
+
+.editable-label {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.editable-label-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.editable-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.editable-checkbox input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+.editable-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.editable-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.editable-table th,
+.editable-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.editable-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.editable-table input[type="text"] {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 4px;
+}
+
+.editable-table input[type="text"]:focus {
+    outline: none;
+    border-bottom: 1px solid #007bff;
+}
+
+.editable-table-header {
+    width: 100%;
+}
+
+.editable-table-cell {
+    width: 100%;
+}
+
+/*  */
+
